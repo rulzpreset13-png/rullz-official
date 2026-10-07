@@ -17,9 +17,10 @@
         .berita-list { display: grid; gap: 15px; }
         .card { background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: transform 0.2s; text-decoration: none; color: inherit; display: block; }
         .card:hover { transform: translateY(-3px); background-color: #fff9f9; }
-        .card h3 { font-size: 16px; margin-bottom: 8px; color: #1a1a2e; }
+        .card h3 { font-size: 16px; margin-bottom: 8px; color: #1a1a2e; line-height: 1.4; }
         .card p { font-size: 13px; color: #777; }
         .badge { display: inline-block; background: #e94560; color: #fff; font-size: 10px; padding: 3px 8px; border-radius: 5px; margin-bottom: 8px; }
+        .badge-biru { background: #0f3460; }
         footer { text-align: center; padding: 20px; font-size: 12px; color: #888; margin-top: 30px; }
     </style>
 </head>
@@ -39,16 +40,23 @@
         </div>
 
         <div class="berita-list">
-            <!-- Kartu Berita yang Bisa Diklik -->
+            <!-- Berita 1 -->
             <a href="berita.html" class="card">
-                <span class="badge">VIRAL</span>
-                <h3>Selebgram Randudongkal Pemalang Ciptakan "Gusion AI"</h3>
-                <p>Seorang selebgram asal Pemalang berhasil membuat AI offline bernama Gusion AI. Klik untuk baca kisah lengkapnya!</p>
+                <span class="badge">PROFIL</span>
+                <h3>Muhammad Syahrul Anbiya, Kreator Muda Asal Randudongkal yang Kembangkan AI Offline</h3>
+                <p>Kreator muda asal Pemalang ini aktif di TikTok dan mengembangkan AI offline. Klik untuk baca profil lengkapnya!</p>
+            </a>
+
+            <!-- Berita 2 -->
+            <a href="berita2.html" class="card">
+                <span class="badge badge-biru">OLAHRAGA</span>
+                <h3>🚨 DRAMATIS! INDONESIA JUARA! THAILAND TUMBANG LEWAT ADU PENALTI</h3>
+                <p>Malam bersejarah di SUGBK! Indonesia juara FIFA ASEAN Cup 2026 usai drama adu penalti melawan Thailand. Baca selengkapnya!</p>
             </a>
         </div>
     </div>
 
-    <footer>   
+    <footer>
         &copy; 2024 Rullz Official. Dibuat dengan Termux.
     </footer>
 </body>
