@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rullz Official - Portal Informasi Viral</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+        body { background-color: #f4f4f9; color: #333; }
+        header { background-color: #1a1a2e; color: #fff; padding: 15px 20px; display: flex; justify-content: space-between; align-items: center; }
+        header h1 { font-size: 24px; color: #e94560; }
+        nav a { color: #fff; text-decoration: none; margin-left: 15px; font-size: 14px; }
+        .container { max-width: 800px; margin: 20px auto; padding: 0 15px; }
+        .hero { background: #fff; padding: 20px; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); margin-bottom: 20px; border-left: 5px solid #e94560; }
+        .hero h2 { font-size: 20px; margin-bottom: 10px; }
+        .hero p { font-size: 14px; color: #666; line-height: 1.6; }
+        .berita-list { display: grid; gap: 15px; }
+        .card { background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: transform 0.2s; }
+        .card:hover { transform: translateY(-3px); }
+        .card h3 { font-size: 16px; margin-bottom: 8px; color: #1a1a2e; }
+        .card p { font-size: 13px; color: #777; }
+        .badge { display: inline-block; background: #e94560; color: #fff; font-size: 10px; padding: 3px 8px; border-radius: 5px; margin-bottom: 8px; }
+        footer { text-align: center; padding: 20px; font-size: 12px; color: #888; margin-top: 30px; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rullz<span style="color:#fff">Official</span></h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Hiburan</a>
+            <a href="#">Teknologi</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="hero">
+            <span class="badge">TRENDING</span>
+            <h2>Selamat Datang di Rullz Official!</h2>
+            <p>Ini adalah website portal informasi viral pertama kamu. Dibuat langsung dari Termux dan di-hosting gratis di GitHub Pages.</p>
+        </div>
+
+        <div class="berita-list">
+            <div class="card">
+                <span class="badge">HIBURAN</span>
+                <h3>Judul Berita Viral Pertama Kamu</h3>
+                <p>Klik di sini untuk membaca selengkapnya. Kamu bisa menambahkan artikel dan gambar nanti.</p>
+            </div>
+            <div class="card">
+                <span class="badge">TEKNOLOGI</span>
+                <h3>Teknologi AI yang Sedang Ramai Dibicarakan</h3>
+                <p>Berita tentang kecerdasan buatan yang lagi naik daun.</p>
+            </div>
+            <div class="card">
+                <span class="badge">UNIK</span>
+                <h3>Kisah Mengharukan dari Sebuah Desa</h3>
+                <p>Informasi unik yang bisa bikin kamu terharu.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 Rullz Official. Dibuat dengan Termux.
+    </footer>
+</body>
+</html>
