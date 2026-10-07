@@ -15,8 +15,8 @@
         .hero h2 { font-size: 20px; margin-bottom: 10px; }
         .hero p { font-size: 14px; color: #666; line-height: 1.6; }
         .berita-list { display: grid; gap: 15px; }
-        .card { background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: transform 0.2s; }
-        .card:hover { transform: translateY(-3px); }
+        .card { background: #fff; padding: 15px; border-radius: 10px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: transform 0.2s; text-decoration: none; color: inherit; display: block; }
+        .card:hover { transform: translateY(-3px); background-color: #fff9f9; }
         .card h3 { font-size: 16px; margin-bottom: 8px; color: #1a1a2e; }
         .card p { font-size: 13px; color: #777; }
         .badge { display: inline-block; background: #e94560; color: #fff; font-size: 10px; padding: 3px 8px; border-radius: 5px; margin-bottom: 8px; }
@@ -27,9 +27,7 @@
     <header>
         <h1>Rullz<span style="color:#fff">Official</span></h1>
         <nav>
-            <a href="#">Home</a>
-            <a href="#">Hiburan</a>
-            <a href="#">Teknologi</a>
+            <a href="index.html">Home</a>
         </nav>
     </header>
 
@@ -37,25 +35,16 @@
         <div class="hero">
             <span class="badge">TRENDING</span>
             <h2>Selamat Datang di Rullz Official!</h2>
-            <p>Ini adalah website portal informasi viral pertama kamu. Dibuat langsung dari Termux dan di-hosting gratis di GitHub Pages.</p>
+            <p>Portal informasi viral terbaru. Klik berita di bawah ini untuk membaca selengkapnya.</p>
         </div>
 
         <div class="berita-list">
-            <div class="card">
-                <span class="badge">HIBURAN</span>
-                <h3>Judul Berita Viral Pertama Kamu</h3>
-                <p>Klik di sini untuk membaca selengkapnya. Kamu bisa menambahkan artikel dan gambar nanti.</p>
-            </div>
-            <div class="card">
-                <span class="badge">TEKNOLOGI</span>
-                <h3>Teknologi AI yang Sedang Ramai Dibicarakan</h3>
-                <p>Berita tentang kecerdasan buatan yang lagi naik daun.</p>
-            </div>
-            <div class="card">
-                <span class="badge">UNIK</span>
-                <h3>Kisah Mengharukan dari Sebuah Desa</h3>
-                <p>Informasi unik yang bisa bikin kamu terharu.</p>
-            </div>
+            <!-- Kartu Berita yang Bisa Diklik -->
+            <a href="berita.html" class="card">
+                <span class="badge">VIRAL</span>
+                <h3>Selebgram Randudongkal Pemalang Ciptakan "Gusion AI"</h3>
+                <p>Seorang selebgram asal Pemalang berhasil membuat AI offline bernama Gusion AI. Klik untuk baca kisah lengkapnya!</p>
+            </a>
         </div>
     </div>
 
